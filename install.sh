@@ -18,7 +18,7 @@ sudo apt -y install unzip
 
 # Step 3: Copy Files to Server
 echo "Step 3: Copying Files to Server..."
-wget https://www.dropbox.com/scl/fi/dkdiddo569fq95zxwgs2r/DRM2ENIGMA.zip?rlkey=uq41dduhwme1edd9nsq12zff4&dl=0
+wget https://github.com/3n1gma2/drm2enigma/raw/main/drm2enigma.zip
 unzip DRM2ENIGMA.zip -d /opt/share2box-drm
 
 # Step 4: After Installation of Nginx
