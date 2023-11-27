@@ -40,8 +40,8 @@ mount -t tmpfs -o size=1024M tmpfs /tmp/ramdisk
 # Step 7: Install FFMPEG
 echo "Step 7: Installing FFMPEG..."
 wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-arm64-static.tar.xz
-tar -xf ffmpeg-release-amd64-static.tar.xz
-cp ffmpeg-*-amd64-static/ffmpeg /usr/bin
+tar -xf ffmpeg-release-arm64-static.tar.xz
+cp ffmpeg-*-arm64-static/ffmpeg /usr/bin
 
 # Step 8: Set Permissions
 echo "Step 8: Setting Permissions..."
