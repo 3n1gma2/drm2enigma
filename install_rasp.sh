@@ -35,7 +35,7 @@ sudo systemctl restart php7.4-fpm.service
 echo "Step 6: Creating Ramdisk..."
 mkdir /tmp/ramdisk
 chmod 777 /tmp/ramdisk
-mount -t tmpfs -o size=1024M tmpfs /tmp/ramdisk
+mount -t tmpfs -o size=512M tmpfs /tmp/ramdisk
 
 # Step 7: Install FFMPEG
 echo "Step 7: Installing FFMPEG..."
